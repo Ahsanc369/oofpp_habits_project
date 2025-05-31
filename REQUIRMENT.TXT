@@ -1,0 +1,13 @@
+# Core runtime (Python's std-lib covers everything else)
+# No extra install needed
+
+# Development / testing helpers
+pytest>=8.0     # run `pytest` to execute the unit-test suite
+black>=24.0     # optional: `black .` auto-formats the code
+
+## Sample data
+A `habits.json` file with 5 pre-filled habits and 4 weeks of data is included in the `code/` folder.
+You can regenerate it anytime using:
+
+```bash
+python generate_fixture_data.py
