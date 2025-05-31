@@ -1,0 +1,34 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Caches and logs
+.cache/
+*.log
+*.tmp
+CACHEDIR.TAG
+
+# Environment and IDE settings
+.env
+.venv/
+venv/
+.idea/
+.vscode/
+
+# Test cache
+pytest_cache/
+.coverage
+.tox/
+nosetests.xml
+coverage.xml
+*.cover
+*.pytest_cache/
+
+# MacOS / Windows / Linux system files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Optional: Ignore habit data (only if not using as test fixture)
+# habits.json
